@@ -39,7 +39,7 @@ flask run
 
 
 
-README inglish
+Inglish
 Sudoku Generator with Flask
 
 This project is a Flask web application that generates custom Sudoku grids in PDF format. The user can enter the number of cells to be removed and receive a PDF containing four Sudoku grids. The generated grids are valid and follow the rules of Sudoku.
