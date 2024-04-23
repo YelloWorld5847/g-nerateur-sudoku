@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Sudoku Generator</title>
+    <!-- Lien vers le fichier CSS dans le dossier 'static' -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Générateur de Sudoku</h1>
+        <!-- Formulaire pour entrer le nombre de cases à supprimer -->
+        <form method="post">
+            Nombre de cases à supprimer: 
+            <input type="number" name="num_clues" min="0" max="81" value="10">
+            <input type="submit" value="Générer">
+        </form>
+    </div>
+</body>
+</html>
